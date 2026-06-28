@@ -1,0 +1,147 @@
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 4; @symbol_classdef = [testDelegate,4,6,18]; @symbol_extends<0> = [WatchUi,4,27,34]; @symbol_extends<1> = [BehaviorDelegate,4,35,51]; ]
+class testDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 5; @position = 8; @symbol_vardef = [app,5,8,11]; ]
+    var app;
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; @symbol_param<0> = [app,6,24,27]; ]
+    function initialize(app) as Void {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_6_29_9_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 7 8 ]
+        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 7 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 8 8 ]
+        symbol [ self %self 8 8 12 ];
+        %tmp.4 = lgetv %app;
+        symbol [ app %tmp.4 8 19 22 ];
+        symbol [ app ? 8 13 16 ];
+        putv self :app %tmp.4;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_6_29_9_4_stop:
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 11; @symbol_functiondef = [onKey,11,13,18]; @symbol_param<0> = [keyEvent,11,19,27]; @symbol_param<0>_type<0> = [KeyEvent,11,31,39]; @symbol_return<0> = [Boolean,11,44,51]; ]
+    function onKey(keyEvent as KeyEvent) as Boolean {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_11_52_24_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 12 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_stmt:
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 12 12 20 ];
+        symbol [ getKey %tmp.2 12 21 27 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 4;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_36_15_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 13 8 ]
+        symbol [ WatchUi %tmp.6 13 8 15 ];
+        %tmp.6 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.7 13 16 24 ];
+        %tmp.7 = getv function %tmp.6 :pushView;
+        symbol [ ShopMenu %tmp.11 13 29 37 ];
+        %tmp.11 = getv ? :ShopMenu;
+        %tmp.12 = self;
+        symbol [ self %tmp.12 13 38 42 ];
+        symbol [ app %tmp.13 13 43 46 ];
+        %tmp.13 = getv %tmp.12 :app;
+        %tmp.8 = newc %tmp.11 (%tmp.13);
+        symbol [ ShopMenuDelegate %tmp.17 13 53 69 ];
+        %tmp.17 = getv ? :ShopMenuDelegate;
+        %tmp.18 = self;
+        symbol [ self %tmp.18 13 70 74 ];
+        symbol [ app %tmp.19 13 75 78 ];
+        %tmp.19 = getv %tmp.18 :app;
+        %tmp.14 = newc %tmp.17 (%tmp.19);
+        symbol [ WatchUi %tmp.20 13 81 88 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.21 13 89 99 ];
+        %tmp.21 = getv %tmp.20 :SLIDE_LEFT;
+        invoke %tmp.6 %tmp.7(%tmp.8, %tmp.14, %tmp.21);
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_36_15_8_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 16 13 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_13_21_4_if_stmt:
+        %tmp.22 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.22 16 17 25 ];
+        symbol [ getKey %tmp.23 16 26 32 ];
+        %tmp.23 = getv function %tmp.22 :getKey;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 5;
+        %tmp.26 = eq %tmp.24 %tmp.25;
+        bf %tmp.26 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_13_21_4_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_13_21_4_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_41_21_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 17 8 ]
+        symbol [ Application %tmp.28 17 8 19 ];
+        %tmp.28 = getv ? :Application;
+        symbol [ Storage %tmp.29 17 20 27 ];
+        %tmp.29 = getv %tmp.28 :Storage;
+        symbol [ setValue %tmp.30 17 28 36 ];
+        %tmp.30 = getv function %tmp.29 :setValue;
+        %tmp.31 = "Money";
+        symbol [ app %tmp.33 17 46 49 ];
+        %tmp.33 = getv ? :app;
+        symbol [ getCurrency %tmp.34 17 50 61 ];
+        %tmp.34 = getv function %tmp.33 :getCurrency;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        invoke %tmp.29 %tmp.30(%tmp.31, %tmp.35);
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 18 8 ]
+        symbol [ Application %tmp.37 18 8 19 ];
+        %tmp.37 = getv ? :Application;
+        symbol [ Storage %tmp.38 18 20 27 ];
+        %tmp.38 = getv %tmp.37 :Storage;
+        symbol [ setValue %tmp.39 18 28 36 ];
+        %tmp.39 = getv function %tmp.38 :setValue;
+        %tmp.40 = "stepsStart";
+        symbol [ app %tmp.42 18 51 54 ];
+        %tmp.42 = getv ? :app;
+        symbol [ getSteps %tmp.43 18 55 63 ];
+        %tmp.43 = getv function %tmp.42 :getSteps;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.44);
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 19 8 ]
+        symbol [ Application %tmp.46 19 8 19 ];
+        %tmp.46 = getv ? :Application;
+        symbol [ Storage %tmp.47 19 20 27 ];
+        %tmp.47 = getv %tmp.46 :Storage;
+        symbol [ setValue %tmp.48 19 28 36 ];
+        %tmp.48 = getv function %tmp.47 :setValue;
+        %tmp.49 = "Multiplier";
+        symbol [ app %tmp.51 19 51 54 ];
+        %tmp.51 = getv ? :app;
+        symbol [ getCurrencyPerStep %tmp.52 19 55 73 ];
+        %tmp.52 = getv function %tmp.51 :getCurrencyPerStep;
+        %tmp.53 = invoke %tmp.51 %tmp.52();
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.53);
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 20 8 ]
+        symbol [ app %tmp.55 20 8 11 ];
+        %tmp.55 = getv ? :app;
+        symbol [ exit %tmp.56 20 12 16 ];
+        %tmp.56 = getv function %tmp.55 :exit;
+        invoke %tmp.55 %tmp.56();
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_41_21_4_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_13_21_4_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_16_13_21_4_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_12_8_21_4_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc" 23 8 ]
+        %tmp.57 = true;
+        ret %tmp.57;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_testDelegate_mc_11_52_24_4_stop:
+    }
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\testDelegate.mc"; @line = 1; ]
+<init> {
+}

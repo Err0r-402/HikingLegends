@@ -1,0 +1,55 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="Money.png" dithering="none" />
+    <bitmap id="ICON_WALK" filename="Shop/Icons/Walker_icon.png" />
+    <bitmap id="ICON_HIKER" filename="Shop/Icons/Hiker_icon.png" />
+    <bitmap id="ICON_EXPLORER" filename="Shop/Icons/Explorer_icon.png" />
+    <bitmap id="ICON_MOUNTAIN" filename="Shop/Icons/Mountaineer_icon.png" />
+    <bitmap id="ICON_TRAILBLAZER" filename="Shop/Icons/Trailblazer_icon.png" />
+    <bitmap id="ICON_HIKING_MASTER" filename="Shop/Icons/Hiking Master_icon.png" />
+    <bitmap id="ICON_HIKING_LEGEND" filename="Shop/Icons/Hiking Legend_icon.png" />
+    <bitmap id="ICON_MYTHIC_EXPLORER" filename="Shop/Icons/Mythic Explorer_icon.png" />
+    <bitmap id="ICON_ANCIENT_WAY_FINDER" filename="Shop/Icons/Old Way Finder_icon.png" />
+    <bitmap id="ICON_SUMMIT_SAGE" filename="Shop/Icons/Summit Sage_icon.png" />
+    <bitmap id="ICON_CELESTIAL_WANDERER" filename="Shop/Icons/Star Wanderer_icon.png" />
+    <bitmap id="ICON_LEGENDARY_ASCENDANT" filename="Shop/Icons/Legend Ascend_icon.png" />
+    <bitmap id="ICON_ETERNAL_ASCENDANT" filename="Shop/Icons/Eternal Ascend_icon.png" />
+
+    <bitmap id="FULL_WALKER" filename="Shop/Dark/Walker.png" />
+    <bitmap id="FULL_HIKER" filename="Shop/Dark/Hiker.png" />
+    <bitmap id="FULL_EXPLORER" filename="Shop/Dark/Explorer.png" />
+    <bitmap id="FULL_MOUNTAINEER" filename="Shop/Dark/Mountaineer.png" />
+    <bitmap id="FULL_TRAILBLAZER" filename="Shop/Dark/Trailblazer.png" />
+    <bitmap id="FULL_HIKING_MASTER" filename="Shop/Dark/Hiking Master.png" />
+    <bitmap id="FULL_HIKING_LEGEND" filename="Shop/Dark/Hiking Legend.png" />
+    <bitmap id="FULL_MYTHIC_EXPLORER" filename="Shop/Dark/Mythic Explorer.png" />
+    <bitmap id="FULL_ANCIENT_WAY_FINDER" filename="Shop/Dark/Old Way Finder.png" />
+    <bitmap id="FULL_SUMMIT_SAGE" filename="Shop/Dark/Summit Sage.png" />
+    <bitmap id="FULL_CELESTIAL_WANDERER" filename="Shop/Dark/Star Wanderer.png" />
+    <bitmap id="FULL_LEGENDARY_ASCENDANT" filename="Shop/Dark/Legend Ascend.png" />
+    <bitmap id="FULL_ETERNAL_ASCENDANT" filename="Shop/Dark/Eternal Ascend.png" />
+    <bitmap id="FRONT_PAGE" filename="Front Page.png" />
+
+    <bitmap id="One" filename="Numbers/1.png" />
+    <bitmap id="Two" filename="Numbers/2.png" />
+    <bitmap id="Three" filename="Numbers/3.png" />
+    <bitmap id="Four" filename="Numbers/4.png" />
+    <bitmap id="Five" filename="Numbers/5.png" />
+    <bitmap id="Six" filename="Numbers/6.png" />
+    <bitmap id="Seven" filename="Numbers/7.png" />
+    <bitmap id="Eight" filename="Numbers/8.png" />
+    <bitmap id="Nine" filename="Numbers/9.png" />
+    <bitmap id="Zero" filename="Numbers/0.png" />
+    <bitmap id="x" filename="Numbers/x.png" />
+    <bitmap id="Period" filename="Numbers/Period.png" />
+    <bitmap id="Dollar" filename="Numbers/Dollar.png" />
+    <bitmap id="Comma" filename="Numbers/Comma.png" />
+
+    <bitmap id="Thousand" filename="Text/k.png" />
+    <bitmap id="Million" filename="Text/m.png" />
+    <bitmap id="Billion" filename="Text/b.png" />
+    <bitmap id="Trillion" filename="Text/t.png" />
+    <bitmap id="Quadrillion" filename="Text/q.png" />
+
+    <bitmap id="Purchase" filename="Shop/Purchase.png" />
+
+</drawables>

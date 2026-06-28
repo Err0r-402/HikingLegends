@@ -1,0 +1,76 @@
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 4; @symbol_classdef = [ShopMenuDelegate,4,6,22]; @symbol_extends<0> = [WatchUi,4,31,38]; @symbol_extends<1> = [Menu2InputDelegate,4,39,57]; ]
+class ShopMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 6; @position = 8; @symbol_vardef = [app,6,8,11]; ]
+    var app;
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; @symbol_param<0> = [app,8,24,27]; ]
+    function initialize(app) as Void {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_8_29_11_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc" 9 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 9 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 9 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc" 10 8 ]
+        symbol [ self %self 10 8 12 ];
+        %tmp.4 = lgetv %app;
+        symbol [ app %tmp.4 10 19 22 ];
+        symbol [ app ? 10 13 16 ];
+        putv self :app %tmp.4;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_8_29_11_4_stop:
+    }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,13,21]; @symbol_param<0> = [item,13,22,26]; ]
+    function onSelect(item) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_13_28_22_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc" 15 4 ]
+        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_13_28_22_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_13_28_22_0_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 15 8 10 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 15 13 17 ];
+        symbol [ getId %tmp.2 15 18 23 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %id.1 %tmp.3;
+        symbol [ id %id.1 15 8 10 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc" 17 4 ]
+        symbol [ WatchUi %tmp.4 17 4 11 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.5 17 12 20 ];
+        %tmp.5 = getv function %tmp.4 :pushView;
+        symbol [ ShopItemDetailView %tmp.9 18 12 30 ];
+        %tmp.9 = getv ? :ShopItemDetailView;
+        symbol [ app %tmp.11 18 31 34 ];
+        %tmp.11 = getv ? :app;
+        %tmp.12 = lgetv %id.1;
+        symbol [ id %tmp.12 18 36 38 ];
+        %tmp.6 = newc %tmp.9 (%tmp.11, %tmp.12);
+        symbol [ ShopItemDetailDelegate %tmp.16 19 12 34 ];
+        %tmp.16 = getv ? :ShopItemDetailDelegate;
+        symbol [ app %tmp.18 19 35 38 ];
+        %tmp.18 = getv ? :app;
+        %tmp.19 = lgetv %id.1;
+        symbol [ id %tmp.19 19 40 42 ];
+        %tmp.13 = newc %tmp.16 (%tmp.18, %tmp.19);
+        symbol [ WatchUi %tmp.20 20 8 15 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.21 20 16 26 ];
+        %tmp.21 = getv %tmp.20 :SLIDE_LEFT;
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.13, %tmp.21);
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_13_28_22_0_stop:
+    }
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

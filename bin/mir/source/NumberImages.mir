@@ -1,0 +1,1290 @@
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Lang,1,13,17]; ]
+using Toybox.Lang;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Graphics,3,13,21]; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 6; @symbol_functiondef = [getNumberDrawable,6,9,26]; @symbol_param<0> = [ch,6,27,29]; ]
+function getNumberDrawable(ch) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_6_31_27_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 7 4 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_stmt:
+    %tmp.1 = lgetv %ch;
+    symbol [ ch %tmp.1 7 8 10 ];
+    %tmp.2 = '0';
+    %tmp.3 = eq %tmp.1 %tmp.2;
+    bf %tmp.3 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_19_7_48_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 7 21 ]
+    symbol [ Rez %tmp.5 7 28 31 ];
+    %tmp.5 = getv ? :Rez;
+    symbol [ Drawables %tmp.6 7 32 41 ];
+    %tmp.6 = getv %tmp.5 :Drawables;
+    symbol [ Zero %tmp.7 7 42 46 ];
+    %tmp.7 = getv %tmp.6 :Zero;
+    ret %tmp.7;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_19_7_48_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 8 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_stmt:
+    %tmp.8 = lgetv %ch;
+    symbol [ ch %tmp.8 8 13 15 ];
+    %tmp.9 = '1';
+    %tmp.10 = eq %tmp.8 %tmp.9;
+    bf %tmp.10 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_24_8_52_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 8 26 ]
+    symbol [ Rez %tmp.12 8 33 36 ];
+    %tmp.12 = getv ? :Rez;
+    symbol [ Drawables %tmp.13 8 37 46 ];
+    %tmp.13 = getv %tmp.12 :Drawables;
+    symbol [ One %tmp.14 8 47 50 ];
+    %tmp.14 = getv %tmp.13 :One;
+    ret %tmp.14;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_24_8_52_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 9 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_stmt:
+    %tmp.15 = lgetv %ch;
+    symbol [ ch %tmp.15 9 13 15 ];
+    %tmp.16 = '2';
+    %tmp.17 = eq %tmp.15 %tmp.16;
+    bf %tmp.17 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_24_9_52_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 9 26 ]
+    symbol [ Rez %tmp.19 9 33 36 ];
+    %tmp.19 = getv ? :Rez;
+    symbol [ Drawables %tmp.20 9 37 46 ];
+    %tmp.20 = getv %tmp.19 :Drawables;
+    symbol [ Two %tmp.21 9 47 50 ];
+    %tmp.21 = getv %tmp.20 :Two;
+    ret %tmp.21;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_24_9_52_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 10 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_stmt:
+    %tmp.22 = lgetv %ch;
+    symbol [ ch %tmp.22 10 13 15 ];
+    %tmp.23 = '3';
+    %tmp.24 = eq %tmp.22 %tmp.23;
+    bf %tmp.24 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_24_10_54_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 10 26 ]
+    symbol [ Rez %tmp.26 10 33 36 ];
+    %tmp.26 = getv ? :Rez;
+    symbol [ Drawables %tmp.27 10 37 46 ];
+    %tmp.27 = getv %tmp.26 :Drawables;
+    symbol [ Three %tmp.28 10 47 52 ];
+    %tmp.28 = getv %tmp.27 :Three;
+    ret %tmp.28;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_24_10_54_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 11 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_stmt:
+    %tmp.29 = lgetv %ch;
+    symbol [ ch %tmp.29 11 13 15 ];
+    %tmp.30 = '4';
+    %tmp.31 = eq %tmp.29 %tmp.30;
+    bf %tmp.31 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_24_11_53_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 11 26 ]
+    symbol [ Rez %tmp.33 11 33 36 ];
+    %tmp.33 = getv ? :Rez;
+    symbol [ Drawables %tmp.34 11 37 46 ];
+    %tmp.34 = getv %tmp.33 :Drawables;
+    symbol [ Four %tmp.35 11 47 51 ];
+    %tmp.35 = getv %tmp.34 :Four;
+    ret %tmp.35;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_24_11_53_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 12 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_stmt:
+    %tmp.36 = lgetv %ch;
+    symbol [ ch %tmp.36 12 13 15 ];
+    %tmp.37 = '5';
+    %tmp.38 = eq %tmp.36 %tmp.37;
+    bf %tmp.38 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_24_12_53_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 12 26 ]
+    symbol [ Rez %tmp.40 12 33 36 ];
+    %tmp.40 = getv ? :Rez;
+    symbol [ Drawables %tmp.41 12 37 46 ];
+    %tmp.41 = getv %tmp.40 :Drawables;
+    symbol [ Five %tmp.42 12 47 51 ];
+    %tmp.42 = getv %tmp.41 :Five;
+    ret %tmp.42;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_24_12_53_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 13 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_stmt:
+    %tmp.43 = lgetv %ch;
+    symbol [ ch %tmp.43 13 13 15 ];
+    %tmp.44 = '6';
+    %tmp.45 = eq %tmp.43 %tmp.44;
+    bf %tmp.45 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_24_13_52_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 13 26 ]
+    symbol [ Rez %tmp.47 13 33 36 ];
+    %tmp.47 = getv ? :Rez;
+    symbol [ Drawables %tmp.48 13 37 46 ];
+    %tmp.48 = getv %tmp.47 :Drawables;
+    symbol [ Six %tmp.49 13 47 50 ];
+    %tmp.49 = getv %tmp.48 :Six;
+    ret %tmp.49;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_24_13_52_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 14 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_stmt:
+    %tmp.50 = lgetv %ch;
+    symbol [ ch %tmp.50 14 13 15 ];
+    %tmp.51 = '7';
+    %tmp.52 = eq %tmp.50 %tmp.51;
+    bf %tmp.52 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_24_14_54_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 14 26 ]
+    symbol [ Rez %tmp.54 14 33 36 ];
+    %tmp.54 = getv ? :Rez;
+    symbol [ Drawables %tmp.55 14 37 46 ];
+    %tmp.55 = getv %tmp.54 :Drawables;
+    symbol [ Seven %tmp.56 14 47 52 ];
+    %tmp.56 = getv %tmp.55 :Seven;
+    ret %tmp.56;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_24_14_54_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 15 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_stmt:
+    %tmp.57 = lgetv %ch;
+    symbol [ ch %tmp.57 15 13 15 ];
+    %tmp.58 = '8';
+    %tmp.59 = eq %tmp.57 %tmp.58;
+    bf %tmp.59 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_24_15_54_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 15 26 ]
+    symbol [ Rez %tmp.61 15 33 36 ];
+    %tmp.61 = getv ? :Rez;
+    symbol [ Drawables %tmp.62 15 37 46 ];
+    %tmp.62 = getv %tmp.61 :Drawables;
+    symbol [ Eight %tmp.63 15 47 52 ];
+    %tmp.63 = getv %tmp.62 :Eight;
+    ret %tmp.63;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_24_15_54_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 16 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_stmt:
+    %tmp.64 = lgetv %ch;
+    symbol [ ch %tmp.64 16 13 15 ];
+    %tmp.65 = '9';
+    %tmp.66 = eq %tmp.64 %tmp.65;
+    bf %tmp.66 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_24_16_53_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 16 26 ]
+    symbol [ Rez %tmp.68 16 33 36 ];
+    %tmp.68 = getv ? :Rez;
+    symbol [ Drawables %tmp.69 16 37 46 ];
+    %tmp.69 = getv %tmp.68 :Drawables;
+    symbol [ Nine %tmp.70 16 47 51 ];
+    %tmp.70 = getv %tmp.69 :Nine;
+    ret %tmp.70;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_24_16_53_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 17 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_stmt:
+    %tmp.71 = lgetv %ch;
+    symbol [ ch %tmp.71 17 13 15 ];
+    %tmp.72 = ',';
+    %tmp.73 = eq %tmp.71 %tmp.72;
+    bf %tmp.73 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_24_17_54_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 17 26 ]
+    symbol [ Rez %tmp.75 17 33 36 ];
+    %tmp.75 = getv ? :Rez;
+    symbol [ Drawables %tmp.76 17 37 46 ];
+    %tmp.76 = getv %tmp.75 :Drawables;
+    symbol [ Comma %tmp.77 17 47 52 ];
+    %tmp.77 = getv %tmp.76 :Comma;
+    ret %tmp.77;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_24_17_54_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 18 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_stmt:
+    %tmp.78 = lgetv %ch;
+    symbol [ ch %tmp.78 18 13 15 ];
+    %tmp.79 = '.';
+    %tmp.80 = eq %tmp.78 %tmp.79;
+    bf %tmp.80 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_24_18_55_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 18 26 ]
+    symbol [ Rez %tmp.82 18 33 36 ];
+    %tmp.82 = getv ? :Rez;
+    symbol [ Drawables %tmp.83 18 37 46 ];
+    %tmp.83 = getv %tmp.82 :Drawables;
+    symbol [ Period %tmp.84 18 47 53 ];
+    %tmp.84 = getv %tmp.83 :Period;
+    ret %tmp.84;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_24_18_55_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 19 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_stmt:
+    %tmp.85 = lgetv %ch;
+    symbol [ ch %tmp.85 19 13 15 ];
+    %tmp.86 = '$';
+    %tmp.87 = eq %tmp.85 %tmp.86;
+    bf %tmp.87 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_24_19_55_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 19 26 ]
+    symbol [ Rez %tmp.89 19 33 36 ];
+    %tmp.89 = getv ? :Rez;
+    symbol [ Drawables %tmp.90 19 37 46 ];
+    %tmp.90 = getv %tmp.89 :Drawables;
+    symbol [ Dollar %tmp.91 19 47 53 ];
+    %tmp.91 = getv %tmp.90 :Dollar;
+    ret %tmp.91;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_24_19_55_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 20 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_stmt:
+    %tmp.92 = lgetv %ch;
+    symbol [ ch %tmp.92 20 13 15 ];
+    %tmp.93 = 'x';
+    %tmp.94 = eq %tmp.92 %tmp.93;
+    bf %tmp.94 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_24_20_50_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 20 26 ]
+    symbol [ Rez %tmp.96 20 33 36 ];
+    %tmp.96 = getv ? :Rez;
+    symbol [ Drawables %tmp.97 20 37 46 ];
+    %tmp.97 = getv %tmp.96 :Drawables;
+    symbol [ x %tmp.98 20 47 48 ];
+    %tmp.98 = getv %tmp.97 :x;
+    ret %tmp.98;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_24_20_50_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 21 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_13_21_32_begin:
+    %tmp.99 = lgetv %ch;
+    symbol [ ch %tmp.99 21 13 15 ];
+    %tmp.100 = 'k';
+    %tmp.101 = eq %tmp.99 %tmp.100;
+    bt %tmp.101 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_26_21_32_false:
+    %tmp.102 = lgetv %ch;
+    symbol [ ch %tmp.102 21 26 28 ];
+    %tmp.103 = 'K';
+    %tmp.104 = eq %tmp.102 %tmp.103;
+    push %tmp.104;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_26_21_32_end:
+    %tmp.105 = phi [%tmp.101 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_13_21_32_begin] [%tmp.104 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_26_21_32_false] [%tmp.105 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_26_21_32_end];
+    bf %tmp.105 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_37_21_70_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 21 39 ]
+    symbol [ Rez %tmp.107 21 46 49 ];
+    %tmp.107 = getv ? :Rez;
+    symbol [ Drawables %tmp.108 21 50 59 ];
+    %tmp.108 = getv %tmp.107 :Drawables;
+    symbol [ Thousand %tmp.109 21 60 68 ];
+    %tmp.109 = getv %tmp.108 :Thousand;
+    ret %tmp.109;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_37_21_70_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 22 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_13_22_32_begin:
+    %tmp.110 = lgetv %ch;
+    symbol [ ch %tmp.110 22 13 15 ];
+    %tmp.111 = 'm';
+    %tmp.112 = eq %tmp.110 %tmp.111;
+    bt %tmp.112 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_26_22_32_false:
+    %tmp.113 = lgetv %ch;
+    symbol [ ch %tmp.113 22 26 28 ];
+    %tmp.114 = 'M';
+    %tmp.115 = eq %tmp.113 %tmp.114;
+    push %tmp.115;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_26_22_32_end:
+    %tmp.116 = phi [%tmp.112 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_13_22_32_begin] [%tmp.115 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_26_22_32_false] [%tmp.116 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_26_22_32_end];
+    bf %tmp.116 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_37_22_69_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 22 39 ]
+    symbol [ Rez %tmp.118 22 46 49 ];
+    %tmp.118 = getv ? :Rez;
+    symbol [ Drawables %tmp.119 22 50 59 ];
+    %tmp.119 = getv %tmp.118 :Drawables;
+    symbol [ Million %tmp.120 22 60 67 ];
+    %tmp.120 = getv %tmp.119 :Million;
+    ret %tmp.120;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_37_22_69_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 23 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_13_23_32_begin:
+    %tmp.121 = lgetv %ch;
+    symbol [ ch %tmp.121 23 13 15 ];
+    %tmp.122 = 'b';
+    %tmp.123 = eq %tmp.121 %tmp.122;
+    bt %tmp.123 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_26_23_32_false:
+    %tmp.124 = lgetv %ch;
+    symbol [ ch %tmp.124 23 26 28 ];
+    %tmp.125 = 'B';
+    %tmp.126 = eq %tmp.124 %tmp.125;
+    push %tmp.126;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_26_23_32_end:
+    %tmp.127 = phi [%tmp.123 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_13_23_32_begin] [%tmp.126 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_26_23_32_false] [%tmp.127 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_26_23_32_end];
+    bf %tmp.127 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_37_23_69_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 23 39 ]
+    symbol [ Rez %tmp.129 23 46 49 ];
+    %tmp.129 = getv ? :Rez;
+    symbol [ Drawables %tmp.130 23 50 59 ];
+    %tmp.130 = getv %tmp.129 :Drawables;
+    symbol [ Billion %tmp.131 23 60 67 ];
+    %tmp.131 = getv %tmp.130 :Billion;
+    ret %tmp.131;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_37_23_69_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 24 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_13_24_32_begin:
+    %tmp.132 = lgetv %ch;
+    symbol [ ch %tmp.132 24 13 15 ];
+    %tmp.133 = 't';
+    %tmp.134 = eq %tmp.132 %tmp.133;
+    bt %tmp.134 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_26_24_32_false:
+    %tmp.135 = lgetv %ch;
+    symbol [ ch %tmp.135 24 26 28 ];
+    %tmp.136 = 'T';
+    %tmp.137 = eq %tmp.135 %tmp.136;
+    push %tmp.137;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_26_24_32_end:
+    %tmp.138 = phi [%tmp.134 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_13_24_32_begin] [%tmp.137 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_26_24_32_false] [%tmp.138 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_26_24_32_end];
+    bf %tmp.138 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_37_24_70_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 24 39 ]
+    symbol [ Rez %tmp.140 24 46 49 ];
+    %tmp.140 = getv ? :Rez;
+    symbol [ Drawables %tmp.141 24 50 59 ];
+    %tmp.141 = getv %tmp.140 :Drawables;
+    symbol [ Trillion %tmp.142 24 60 68 ];
+    %tmp.142 = getv %tmp.141 :Trillion;
+    ret %tmp.142;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_37_24_70_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 25 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_13_25_32_begin:
+    %tmp.143 = lgetv %ch;
+    symbol [ ch %tmp.143 25 13 15 ];
+    %tmp.144 = 'q';
+    %tmp.145 = eq %tmp.143 %tmp.144;
+    bt %tmp.145 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_26_25_32_false:
+    %tmp.146 = lgetv %ch;
+    symbol [ ch %tmp.146 25 26 28 ];
+    %tmp.147 = 'Q';
+    %tmp.148 = eq %tmp.146 %tmp.147;
+    push %tmp.148;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_26_25_32_end:
+    %tmp.149 = phi [%tmp.145 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_13_25_32_begin] [%tmp.148 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_26_25_32_false] [%tmp.149 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_26_25_32_end];
+    bf %tmp.149 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_37_25_73_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 25 39 ]
+    symbol [ Rez %tmp.151 25 46 49 ];
+    %tmp.151 = getv ? :Rez;
+    symbol [ Drawables %tmp.152 25 50 59 ];
+    %tmp.152 = getv %tmp.151 :Drawables;
+    symbol [ Quadrillion %tmp.153 25 60 71 ];
+    %tmp.153 = getv %tmp.152 :Quadrillion;
+    ret %tmp.153;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_37_25_73_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_25_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_24_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_23_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_22_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_21_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_20_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_19_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_18_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_17_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_16_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_15_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_14_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_13_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_12_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_11_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_10_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_9_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_8_9_25_73_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_7_4_25_73_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 26 4 ]
+    %tmp.154 = null;
+    ret %tmp.154;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_6_31_27_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 32; @symbol_functiondef = [abbreviateNumber,32,9,25]; @symbol_param<0> = [value,32,26,31]; ]
+function abbreviateNumber(value) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_32_33_41_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 33 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_32_33_41_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_32_33_41_0_stop" ]
+    %v.1 = local;
+    symbol [ v %v.1 33 8 9 ];
+    %tmp.1 = lgetv %value;
+    symbol [ value %tmp.1 33 12 17 ];
+    symbol [ toLong %tmp.2 33 18 24 ];
+    %tmp.2 = getv function %tmp.1 :toLong;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %v.1 %tmp.3;
+    symbol [ v %v.1 33 8 9 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 35 4 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_stmt:
+    %tmp.4 = lgetv %v.1;
+    symbol [ v %tmp.4 35 8 9 ];
+    %tmp.5 = 1000000000000000l;
+    %tmp.6 = gte %tmp.4 %tmp.5;
+    bf %tmp.6 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_32_35_83_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 35 34 ]
+    %tmp.7 = self;
+    symbol [ scaledAmount %tmp.8 35 41 53 ];
+    %tmp.8 = getv function %tmp.7 :scaledAmount;
+    %tmp.9 = lgetv %v.1;
+    symbol [ v %tmp.9 35 54 55 ];
+    %tmp.10 = 1000000000000000l;
+    %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10);
+    %tmp.12 = "Q";
+    %tmp.13 = add %tmp.11 %tmp.12;
+    ret %tmp.13;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_32_35_83_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 36 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_stmt:
+    %tmp.14 = lgetv %v.1;
+    symbol [ v %tmp.14 36 13 14 ];
+    %tmp.15 = 1000000000000l;
+    %tmp.16 = gte %tmp.14 %tmp.15;
+    bf %tmp.16 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_34_36_82_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 36 36 ]
+    %tmp.17 = self;
+    symbol [ scaledAmount %tmp.18 36 43 55 ];
+    %tmp.18 = getv function %tmp.17 :scaledAmount;
+    %tmp.19 = lgetv %v.1;
+    symbol [ v %tmp.19 36 56 57 ];
+    %tmp.20 = 1000000000000l;
+    %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20);
+    %tmp.22 = "T";
+    %tmp.23 = add %tmp.21 %tmp.22;
+    ret %tmp.23;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_34_36_82_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 37 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_stmt:
+    %tmp.24 = lgetv %v.1;
+    symbol [ v %tmp.24 37 13 14 ];
+    %tmp.25 = 1000000000l;
+    %tmp.26 = gte %tmp.24 %tmp.25;
+    bf %tmp.26 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_31_37_76_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 37 33 ]
+    %tmp.27 = self;
+    symbol [ scaledAmount %tmp.28 37 40 52 ];
+    %tmp.28 = getv function %tmp.27 :scaledAmount;
+    %tmp.29 = lgetv %v.1;
+    symbol [ v %tmp.29 37 53 54 ];
+    %tmp.30 = 1000000000l;
+    %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
+    %tmp.32 = "B";
+    %tmp.33 = add %tmp.31 %tmp.32;
+    ret %tmp.33;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_31_37_76_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 38 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_stmt:
+    %tmp.34 = lgetv %v.1;
+    symbol [ v %tmp.34 38 13 14 ];
+    %tmp.35 = 1000000l;
+    %tmp.36 = gte %tmp.34 %tmp.35;
+    bf %tmp.36 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_28_38_70_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 38 30 ]
+    %tmp.37 = self;
+    symbol [ scaledAmount %tmp.38 38 37 49 ];
+    %tmp.38 = getv function %tmp.37 :scaledAmount;
+    %tmp.39 = lgetv %v.1;
+    symbol [ v %tmp.39 38 50 51 ];
+    %tmp.40 = 1000000l;
+    %tmp.41 = invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
+    %tmp.42 = "M";
+    %tmp.43 = add %tmp.41 %tmp.42;
+    ret %tmp.43;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_28_38_70_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 39 9 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_9_39_64_if_stmt:
+    %tmp.44 = lgetv %v.1;
+    symbol [ v %tmp.44 39 13 14 ];
+    %tmp.45 = 1000l;
+    %tmp.46 = gte %tmp.44 %tmp.45;
+    bf %tmp.46 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_9_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_9_39_64_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_25_39_64_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 39 27 ]
+    %tmp.47 = self;
+    symbol [ scaledAmount %tmp.48 39 34 46 ];
+    %tmp.48 = getv function %tmp.47 :scaledAmount;
+    %tmp.49 = lgetv %v.1;
+    symbol [ v %tmp.49 39 47 48 ];
+    %tmp.50 = 1000l;
+    %tmp.51 = invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50);
+    %tmp.52 = "k";
+    %tmp.53 = add %tmp.51 %tmp.52;
+    ret %tmp.53;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_25_39_64_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_9_39_64_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_39_9_39_64_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_38_9_39_64_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_37_9_39_64_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_36_9_39_64_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_35_4_39_64_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 40 4 ]
+    %tmp.54 = lgetv %v.1;
+    symbol [ v %tmp.54 40 11 12 ];
+    symbol [ toString %tmp.55 40 13 21 ];
+    %tmp.55 = getv function %tmp.54 :toString;
+    %tmp.56 = invoke %tmp.54 %tmp.55();
+    ret %tmp.56;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_32_33_41_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 44; @symbol_functiondef = [scaledAmount,44,9,21]; @symbol_param<0> = [value,44,22,27]; @symbol_param<1> = [divisor,44,29,36]; ]
+function scaledAmount(value, divisor) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 45 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_stop" ]
+    %tenths.1 = local;
+    symbol [ tenths %tenths.1 45 8 14 ];
+    %tmp.1 = lgetv %value;
+    symbol [ value %tmp.1 45 18 23 ];
+    %tmp.2 = 10;
+    %tmp.3 = mul %tmp.1 %tmp.2;
+    %tmp.4 = lgetv %divisor;
+    symbol [ divisor %tmp.4 45 32 39 ];
+    %tmp.5 = div %tmp.3 %tmp.4;
+    lputv %tenths.1 %tmp.5;
+    symbol [ tenths %tenths.1 45 8 14 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 46 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_stop" ]
+    %whole.2 = local;
+    symbol [ whole %whole.2 46 8 13 ];
+    %tmp.6 = lgetv %tenths.1;
+    symbol [ tenths %tmp.6 46 16 22 ];
+    %tmp.7 = 10;
+    %tmp.8 = div %tmp.6 %tmp.7;
+    lputv %whole.2 %tmp.8;
+    symbol [ whole %whole.2 46 8 13 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 47 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_stop" ]
+    %tenth.3 = local;
+    symbol [ tenth %tenth.3 47 8 13 ];
+    %tmp.9 = lgetv %tenths.1;
+    symbol [ tenths %tmp.9 47 16 22 ];
+    %tmp.10 = 10;
+    %tmp.11 = mod %tmp.9 %tmp.10;
+    lputv %tenth.3 %tmp.11;
+    symbol [ tenth %tenth.3 47 8 13 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 48 4 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_begin:
+    %tmp.12 = lgetv %tenth.3;
+    symbol [ tenth %tmp.12 48 12 17 ];
+    %tmp.13 = 0;
+    %tmp.14 = eq %tmp.12 %tmp.13;
+    bf %tmp.14 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_true:
+    %tmp.15 = lgetv %whole.2;
+    symbol [ whole %tmp.15 48 26 31 ];
+    symbol [ toString %tmp.16 48 32 40 ];
+    %tmp.16 = getv function %tmp.15 :toString;
+    %tmp.17 = invoke %tmp.15 %tmp.16();
+    push %tmp.17;
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_false:
+    %tmp.18 = lgetv %whole.2;
+    symbol [ whole %tmp.18 48 45 50 ];
+    symbol [ toString %tmp.19 48 51 59 ];
+    %tmp.19 = getv function %tmp.18 :toString;
+    %tmp.20 = invoke %tmp.18 %tmp.19();
+    %tmp.21 = ".";
+    %tmp.22 = add %tmp.20 %tmp.21;
+    %tmp.23 = lgetv %tenth.3;
+    symbol [ tenth %tmp.23 48 70 75 ];
+    symbol [ toString %tmp.24 48 76 84 ];
+    %tmp.24 = getv function %tmp.23 :toString;
+    %tmp.25 = invoke %tmp.23 %tmp.24();
+    %tmp.26 = add %tmp.22 %tmp.25;
+    push %tmp.26;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_end:
+    %tmp.27 = phi [%tmp.14 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_begin] [%tmp.17 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_true] [%tmp.26 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_false] [%tmp.27 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_48_11_48_85_end];
+    ret %tmp.27;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_44_38_49_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 53; @position = 6; @symbol_constdef = [NUMBER_IMAGE_BASE_SIZE,53,6,28]; ]
+const NUMBER_IMAGE_BASE_SIZE = 75;
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 56; @symbol_functiondef = [digitGap,56,9,17]; @symbol_param<0> = [lastDigit,56,18,27]; @symbol_param<1> = [size,56,29,33]; ]
+function digitGap(lastDigit, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_56_35_59_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 57 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_56_35_59_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_56_35_59_0_stop" ]
+    %base.1 = local;
+    symbol [ base %base.1 57 8 12 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_begin:
+    %tmp.1 = lgetv %lastDigit;
+    symbol [ lastDigit %tmp.1 57 16 25 ];
+    %tmp.2 = '1';
+    %tmp.3 = eq %tmp.1 %tmp.2;
+    bf %tmp.3 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_true:
+    %tmp.4 = 15;
+    push %tmp.4;
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_false:
+    %tmp.5 = 20;
+    push %tmp.5;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_end:
+    %tmp.6 = phi [%tmp.3 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_begin] [%tmp.4 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_true] [%tmp.5 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_false] [%tmp.6 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_57_15_57_41_end];
+    lputv %base.1 %tmp.6;
+    symbol [ base %base.1 57 8 12 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 58 4 ]
+    %tmp.7 = lgetv %size;
+    symbol [ size %tmp.7 58 12 16 ];
+    %tmp.8 = lgetv %base.1;
+    symbol [ base %tmp.8 58 19 23 ];
+    %tmp.9 = mul %tmp.7 %tmp.8;
+    symbol [ NUMBER_IMAGE_BASE_SIZE %tmp.11 58 27 49 ];
+    %tmp.11 = getv ? :NUMBER_IMAGE_BASE_SIZE;
+    %tmp.12 = div %tmp.9 %tmp.11;
+    ret %tmp.12;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_56_35_59_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 62; @symbol_functiondef = [punctGap,62,9,17]; @symbol_param<0> = [lastDigit,62,18,27]; @symbol_param<1> = [size,62,29,33]; ]
+function punctGap(lastDigit, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_62_35_65_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 63 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_62_35_65_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_62_35_65_0_stop" ]
+    %base.1 = local;
+    symbol [ base %base.1 63 8 12 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_begin:
+    %tmp.1 = lgetv %lastDigit;
+    symbol [ lastDigit %tmp.1 63 16 25 ];
+    %tmp.2 = '1';
+    %tmp.3 = eq %tmp.1 %tmp.2;
+    bf %tmp.3 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_true:
+    %tmp.4 = 10;
+    push %tmp.4;
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_false:
+    %tmp.5 = 15;
+    push %tmp.5;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_end:
+    %tmp.6 = phi [%tmp.3 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_begin] [%tmp.4 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_true] [%tmp.5 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_false] [%tmp.6 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_63_15_63_41_end];
+    lputv %base.1 %tmp.6;
+    symbol [ base %base.1 63 8 12 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 64 4 ]
+    %tmp.7 = lgetv %size;
+    symbol [ size %tmp.7 64 12 16 ];
+    %tmp.8 = lgetv %base.1;
+    symbol [ base %tmp.8 64 19 23 ];
+    %tmp.9 = mul %tmp.7 %tmp.8;
+    symbol [ NUMBER_IMAGE_BASE_SIZE %tmp.11 64 27 49 ];
+    %tmp.11 = getv ? :NUMBER_IMAGE_BASE_SIZE;
+    %tmp.12 = div %tmp.9 %tmp.11;
+    ret %tmp.12;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_62_35_65_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 69; @symbol_functiondef = [iconGap,69,9,16]; @symbol_param<0> = [lastDigit,69,17,26]; @symbol_param<1> = [size,69,28,32]; ]
+function iconGap(lastDigit, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_69_34_71_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 70 4 ]
+    %tmp.1 = self;
+    symbol [ digitGap %tmp.2 70 11 19 ];
+    %tmp.2 = getv function %tmp.1 :digitGap;
+    %tmp.3 = lgetv %lastDigit;
+    symbol [ lastDigit %tmp.3 70 20 29 ];
+    %tmp.4 = lgetv %size;
+    symbol [ size %tmp.4 70 31 35 ];
+    %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+    %tmp.6 = 2;
+    %tmp.7 = mul %tmp.5 %tmp.6;
+    ret %tmp.7;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_69_34_71_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 74; @symbol_functiondef = [lastDigitIn,74,9,20]; @symbol_param<0> = [text,74,21,25]; ]
+function lastDigitIn(text) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 75 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_stop" ]
+    %chars.1 = local;
+    symbol [ chars %chars.1 75 8 13 ];
+    %tmp.1 = lgetv %text;
+    symbol [ text %tmp.1 75 16 20 ];
+    symbol [ toCharArray %tmp.2 75 21 32 ];
+    %tmp.2 = getv function %tmp.1 :toCharArray;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %chars.1 %tmp.3;
+    symbol [ chars %chars.1 75 8 13 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 76 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_stop" ]
+    %lastDigit.2 = local;
+    symbol [ lastDigit %lastDigit.2 76 8 17 ];
+    %tmp.4 = null;
+    lputv %lastDigit.2 %tmp.4;
+    symbol [ lastDigit %lastDigit.2 76 8 17 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 78 4 ]
+    for @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_test @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_incr @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_init:
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_begin" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_end" ]
+    %i.3 = local;
+    symbol [ i %i.3 78 13 14 ];
+    %tmp.5 = 0;
+    lputv %i.3 %tmp.5;
+    symbol [ i %i.3 78 13 14 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_test:
+    %tmp.6 = lgetv %i.3;
+    symbol [ i %tmp.6 78 20 21 ];
+    %tmp.7 = lgetv %chars.1;
+    symbol [ chars %tmp.7 78 24 29 ];
+    symbol [ size %tmp.8 78 30 34 ];
+    %tmp.8 = getv function %tmp.7 :size;
+    %tmp.9 = invoke %tmp.7 %tmp.8();
+    %tmp.10 = lt %tmp.6 %tmp.9;
+    bf %tmp.10 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_begin:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_43_83_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 79 8 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_43_83_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_43_83_4_stop" ]
+    %ch.4 = local;
+    symbol [ ch %ch.4 79 12 14 ];
+    %tmp.11 = lgetv %chars.1;
+    symbol [ chars %tmp.11 79 17 22 ];
+    %tmp.12 = lgetv %i.3;
+    symbol [ i %tmp.12 79 23 24 ];
+    %tmp.13 = agetv %tmp.11 %tmp.12;
+    lputv %ch.4 %tmp.13;
+    symbol [ ch %ch.4 79 12 14 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 80 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_12_80_31_begin:
+    %tmp.14 = lgetv %ch.4;
+    symbol [ ch %tmp.14 80 12 14 ];
+    %tmp.15 = '0';
+    %tmp.16 = gte %tmp.14 %tmp.15;
+    bf %tmp.16 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_25_80_31_true:
+    %tmp.17 = lgetv %ch.4;
+    symbol [ ch %tmp.17 80 25 27 ];
+    %tmp.18 = '9';
+    %tmp.19 = lte %tmp.17 %tmp.18;
+    push %tmp.19;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_25_80_31_end:
+    %tmp.20 = phi [%tmp.16 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_12_80_31_begin] [%tmp.19 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_25_80_31_true] [%tmp.20 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_25_80_31_end];
+    bf %tmp.20 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_36_82_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 81 12 ]
+    %tmp.21 = lgetv %ch.4;
+    symbol [ ch %tmp.21 81 24 26 ];
+    lputv %lastDigit.2 %tmp.21;
+    symbol [ lastDigit %lastDigit.2 81 12 21 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_36_82_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_80_8_82_8_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_43_83_4_stop:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_incr:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 78 ]
+    %tmp.24 = lgetv %i.3;
+    symbol [ i %tmp.24 78 38 39 ];
+    %tmp.25 = add %tmp.24 1;
+    lputv %i.3 %tmp.25;
+    symbol [ i %i.3 78 38 39 ];
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_test;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_78_4_83_4_for_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 85 4 ]
+    %tmp.26 = lgetv %lastDigit.2;
+    symbol [ lastDigit %tmp.26 85 11 20 ];
+    ret %tmp.26;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_74_27_86_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 90; @symbol_functiondef = [numberTextEndOffset,90,9,28]; @symbol_param<0> = [text,90,29,33]; @symbol_param<1> = [size,90,35,39]; ]
+function numberTextEndOffset(text, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 91 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_stop" ]
+    %chars.1 = local;
+    symbol [ chars %chars.1 91 8 13 ];
+    %tmp.1 = lgetv %text;
+    symbol [ text %tmp.1 91 16 20 ];
+    symbol [ toCharArray %tmp.2 91 21 32 ];
+    %tmp.2 = getv function %tmp.1 :toCharArray;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %chars.1 %tmp.3;
+    symbol [ chars %chars.1 91 8 13 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 92 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_stop" ]
+    %curX.2 = local;
+    symbol [ curX %curX.2 92 8 12 ];
+    %tmp.4 = 0;
+    lputv %curX.2 %tmp.4;
+    symbol [ curX %curX.2 92 8 12 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 93 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_stop" ]
+    %lastDigit.3 = local;
+    symbol [ lastDigit %lastDigit.3 93 8 17 ];
+    %tmp.5 = null;
+    lputv %lastDigit.3 %tmp.5;
+    symbol [ lastDigit %lastDigit.3 93 8 17 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 95 4 ]
+    for @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_test @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_incr @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_init:
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_begin" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_end" ]
+    %i.4 = local;
+    symbol [ i %i.4 95 13 14 ];
+    %tmp.6 = 0;
+    lputv %i.4 %tmp.6;
+    symbol [ i %i.4 95 13 14 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_test:
+    %tmp.7 = lgetv %i.4;
+    symbol [ i %tmp.7 95 20 21 ];
+    %tmp.8 = lgetv %chars.1;
+    symbol [ chars %tmp.8 95 24 29 ];
+    symbol [ size %tmp.9 95 30 34 ];
+    %tmp.9 = getv function %tmp.8 :size;
+    %tmp.10 = invoke %tmp.8 %tmp.9();
+    %tmp.11 = lt %tmp.7 %tmp.10;
+    bf %tmp.11 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_begin:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_43_105_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 96 8 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_43_105_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_43_105_4_stop" ]
+    %ch.5 = local;
+    symbol [ ch %ch.5 96 12 14 ];
+    %tmp.12 = lgetv %chars.1;
+    symbol [ chars %tmp.12 96 17 22 ];
+    %tmp.13 = lgetv %i.4;
+    symbol [ i %tmp.13 96 23 24 ];
+    %tmp.14 = agetv %tmp.12 %tmp.13;
+    lputv %ch.5 %tmp.14;
+    symbol [ ch %ch.5 96 12 14 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 98 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_8_100_8_if_stmt:
+    %tmp.15 = lgetv %i.4;
+    symbol [ i %tmp.15 98 12 13 ];
+    %tmp.16 = 0;
+    %tmp.17 = gt %tmp.15 %tmp.16;
+    bf %tmp.17 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_8_100_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_8_100_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_19_100_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 99 12 ]
+    %tmp.18 = lgetv %curX.2;
+    symbol [ curX %tmp.18 99 12 16 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_begin:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_21_99_40_begin:
+    %tmp.19 = lgetv %ch.5;
+    symbol [ ch %tmp.19 99 21 23 ];
+    %tmp.20 = ',';
+    %tmp.21 = eq %tmp.19 %tmp.20;
+    bt %tmp.21 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_34_99_40_false:
+    %tmp.22 = lgetv %ch.5;
+    symbol [ ch %tmp.22 99 34 36 ];
+    %tmp.23 = '.';
+    %tmp.24 = eq %tmp.22 %tmp.23;
+    push %tmp.24;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_34_99_40_end:
+    %tmp.25 = phi [%tmp.21 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_21_99_40_begin] [%tmp.24 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_34_99_40_false] [%tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_34_99_40_end];
+    bf %tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_true:
+    %tmp.26 = self;
+    symbol [ punctGap %tmp.27 99 47 55 ];
+    %tmp.27 = getv function %tmp.26 :punctGap;
+    %tmp.28 = lgetv %lastDigit.3;
+    symbol [ lastDigit %tmp.28 99 56 65 ];
+    %tmp.29 = lgetv %size;
+    symbol [ size %tmp.29 99 67 71 ];
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.28, %tmp.29);
+    push %tmp.30;
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_false:
+    %tmp.31 = self;
+    symbol [ digitGap %tmp.32 99 75 83 ];
+    %tmp.32 = getv function %tmp.31 :digitGap;
+    %tmp.33 = lgetv %lastDigit.3;
+    symbol [ lastDigit %tmp.33 99 84 93 ];
+    %tmp.34 = lgetv %size;
+    symbol [ size %tmp.34 99 95 99 ];
+    %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34);
+    push %tmp.35;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_end:
+    %tmp.36 = phi [%tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_begin] [%tmp.30 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_true] [%tmp.35 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_false] [%tmp.36 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_99_20_99_99_end];
+    %tmp.37 = add %tmp.18 %tmp.36;
+    lputv %curX.2 %tmp.37;
+    symbol [ curX %curX.2 99 12 16 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_19_100_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_8_100_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_98_8_100_8_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 102 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_12_102_31_begin:
+    %tmp.38 = lgetv %ch.5;
+    symbol [ ch %tmp.38 102 12 14 ];
+    %tmp.39 = '0';
+    %tmp.40 = gte %tmp.38 %tmp.39;
+    bf %tmp.40 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_25_102_31_true:
+    %tmp.41 = lgetv %ch.5;
+    symbol [ ch %tmp.41 102 25 27 ];
+    %tmp.42 = '9';
+    %tmp.43 = lte %tmp.41 %tmp.42;
+    push %tmp.43;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_25_102_31_end:
+    %tmp.44 = phi [%tmp.40 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_12_102_31_begin] [%tmp.43 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_25_102_31_true] [%tmp.44 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_25_102_31_end];
+    bf %tmp.44 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_36_104_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 103 12 ]
+    %tmp.45 = lgetv %ch.5;
+    symbol [ ch %tmp.45 103 24 26 ];
+    lputv %lastDigit.3 %tmp.45;
+    symbol [ lastDigit %lastDigit.3 103 12 21 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_36_104_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_102_8_104_8_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_43_105_4_stop:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_incr:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 95 ]
+    %tmp.48 = lgetv %i.4;
+    symbol [ i %tmp.48 95 38 39 ];
+    %tmp.49 = add %tmp.48 1;
+    lputv %i.4 %tmp.49;
+    symbol [ i %i.4 95 38 39 ];
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_test;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_95_4_105_4_for_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 107 4 ]
+    %tmp.50 = lgetv %curX.2;
+    symbol [ curX %tmp.50 107 11 15 ];
+    ret %tmp.50;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_90_41_108_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 111; @symbol_functiondef = [numberTextWidth,111,9,24]; @symbol_param<0> = [text,111,25,29]; @symbol_param<1> = [size,111,31,35]; ]
+function numberTextWidth(text, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_111_37_113_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 112 4 ]
+    %tmp.1 = self;
+    symbol [ numberTextEndOffset %tmp.2 112 11 30 ];
+    %tmp.2 = getv function %tmp.1 :numberTextEndOffset;
+    %tmp.3 = lgetv %text;
+    symbol [ text %tmp.3 112 31 35 ];
+    %tmp.4 = lgetv %size;
+    symbol [ size %tmp.4 112 37 41 ];
+    %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+    %tmp.6 = lgetv %size;
+    symbol [ size %tmp.6 112 45 49 ];
+    %tmp.7 = add %tmp.5 %tmp.6;
+    ret %tmp.7;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_111_37_113_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 122; @symbol_functiondef = [drawNumberText,122,9,23]; @symbol_param<0> = [dc,122,24,26]; @symbol_param<1> = [x,122,28,29]; @symbol_param<2> = [y,122,31,32]; @symbol_param<3> = [text,122,34,38]; @symbol_param<4> = [size,122,40,44]; ]
+function drawNumberText(dc, x, y, text, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 123 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_stop" ]
+    %chars.1 = local;
+    symbol [ chars %chars.1 123 8 13 ];
+    %tmp.1 = lgetv %text;
+    symbol [ text %tmp.1 123 16 20 ];
+    symbol [ toCharArray %tmp.2 123 21 32 ];
+    %tmp.2 = getv function %tmp.1 :toCharArray;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    lputv %chars.1 %tmp.3;
+    symbol [ chars %chars.1 123 8 13 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 124 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_stop" ]
+    %curX.2 = local;
+    symbol [ curX %curX.2 124 8 12 ];
+    %tmp.4 = lgetv %x;
+    symbol [ x %tmp.4 124 15 16 ];
+    lputv %curX.2 %tmp.4;
+    symbol [ curX %curX.2 124 8 12 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 125 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_stop" ]
+    %lastDigit.3 = local;
+    symbol [ lastDigit %lastDigit.3 125 8 17 ];
+    %tmp.5 = null;
+    lputv %lastDigit.3 %tmp.5;
+    symbol [ lastDigit %lastDigit.3 125 8 17 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 127 4 ]
+    for @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_test @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_incr @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_init:
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_begin" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_end" ]
+    %i.4 = local;
+    symbol [ i %i.4 127 13 14 ];
+    %tmp.6 = 0;
+    lputv %i.4 %tmp.6;
+    symbol [ i %i.4 127 13 14 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_test:
+    %tmp.7 = lgetv %i.4;
+    symbol [ i %tmp.7 127 20 21 ];
+    %tmp.8 = lgetv %chars.1;
+    symbol [ chars %tmp.8 127 24 29 ];
+    symbol [ size %tmp.9 127 30 34 ];
+    %tmp.9 = getv function %tmp.8 :size;
+    %tmp.10 = invoke %tmp.8 %tmp.9();
+    %tmp.11 = lt %tmp.7 %tmp.10;
+    bf %tmp.11 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_begin:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 128 8 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_stop" ]
+    %ch.5 = local;
+    symbol [ ch %ch.5 128 12 14 ];
+    %tmp.12 = lgetv %chars.1;
+    symbol [ chars %tmp.12 128 17 22 ];
+    %tmp.13 = lgetv %i.4;
+    symbol [ i %tmp.13 128 23 24 ];
+    %tmp.14 = agetv %tmp.12 %tmp.13;
+    lputv %ch.5 %tmp.14;
+    symbol [ ch %ch.5 128 12 14 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 130 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_8_132_8_if_stmt:
+    %tmp.15 = lgetv %i.4;
+    symbol [ i %tmp.15 130 12 13 ];
+    %tmp.16 = 0;
+    %tmp.17 = gt %tmp.15 %tmp.16;
+    bf %tmp.17 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_8_132_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_8_132_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_19_132_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 131 12 ]
+    %tmp.18 = lgetv %curX.2;
+    symbol [ curX %tmp.18 131 12 16 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_begin:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_21_131_40_begin:
+    %tmp.19 = lgetv %ch.5;
+    symbol [ ch %tmp.19 131 21 23 ];
+    %tmp.20 = ',';
+    %tmp.21 = eq %tmp.19 %tmp.20;
+    bt %tmp.21 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_true;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_34_131_40_false:
+    %tmp.22 = lgetv %ch.5;
+    symbol [ ch %tmp.22 131 34 36 ];
+    %tmp.23 = '.';
+    %tmp.24 = eq %tmp.22 %tmp.23;
+    push %tmp.24;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_34_131_40_end:
+    %tmp.25 = phi [%tmp.21 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_21_131_40_begin] [%tmp.24 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_34_131_40_false] [%tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_34_131_40_end];
+    bf %tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_true:
+    %tmp.26 = self;
+    symbol [ punctGap %tmp.27 131 47 55 ];
+    %tmp.27 = getv function %tmp.26 :punctGap;
+    %tmp.28 = lgetv %lastDigit.3;
+    symbol [ lastDigit %tmp.28 131 56 65 ];
+    %tmp.29 = lgetv %size;
+    symbol [ size %tmp.29 131 67 71 ];
+    %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.28, %tmp.29);
+    push %tmp.30;
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_false:
+    %tmp.31 = self;
+    symbol [ digitGap %tmp.32 131 75 83 ];
+    %tmp.32 = getv function %tmp.31 :digitGap;
+    %tmp.33 = lgetv %lastDigit.3;
+    symbol [ lastDigit %tmp.33 131 84 93 ];
+    %tmp.34 = lgetv %size;
+    symbol [ size %tmp.34 131 95 99 ];
+    %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34);
+    push %tmp.35;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_end:
+    %tmp.36 = phi [%tmp.25 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_begin] [%tmp.30 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_true] [%tmp.35 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_false] [%tmp.36 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_131_20_131_99_end];
+    %tmp.37 = add %tmp.18 %tmp.36;
+    lputv %curX.2 %tmp.37;
+    symbol [ curX %curX.2 131 12 16 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_19_132_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_8_132_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_130_8_132_8_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 134 8 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_stop" ]
+    %drawable.6 = local;
+    symbol [ drawable %drawable.6 134 12 20 ];
+    %tmp.38 = self;
+    symbol [ getNumberDrawable %tmp.39 134 23 40 ];
+    %tmp.39 = getv function %tmp.38 :getNumberDrawable;
+    %tmp.40 = lgetv %ch.5;
+    symbol [ ch %tmp.40 134 41 43 ];
+    %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+    lputv %drawable.6 %tmp.41;
+    symbol [ drawable %drawable.6 134 12 20 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 135 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_8_137_8_if_stmt:
+    %tmp.42 = lgetv %drawable.6;
+    symbol [ drawable %tmp.42 135 12 20 ];
+    %tmp.43 = null;
+    %tmp.44 = ne %tmp.42 %tmp.43;
+    bf %tmp.44 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_8_137_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_8_137_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_30_137_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 136 12 ]
+    %tmp.45 = lgetv %dc;
+    symbol [ dc %tmp.45 136 12 14 ];
+    symbol [ drawScaledBitmap %tmp.46 136 15 31 ];
+    %tmp.46 = getv function %tmp.45 :drawScaledBitmap;
+    %tmp.47 = lgetv %curX.2;
+    symbol [ curX %tmp.47 136 32 36 ];
+    %tmp.48 = lgetv %y;
+    symbol [ y %tmp.48 136 38 39 ];
+    %tmp.49 = lgetv %size;
+    symbol [ size %tmp.49 136 41 45 ];
+    %tmp.50 = lgetv %size;
+    symbol [ size %tmp.50 136 47 51 ];
+    symbol [ WatchUi %tmp.51 136 53 60 ];
+    %tmp.51 = getm $.Toybox.WatchUi;
+    symbol [ loadResource %tmp.52 136 61 73 ];
+    %tmp.52 = getv function %tmp.51 :loadResource;
+    %tmp.53 = lgetv %drawable.6;
+    symbol [ drawable %tmp.53 136 74 82 ];
+    %tmp.54 = as %tmp.53 { (!Null) };
+    %tmp.55 = invoke %tmp.51 %tmp.52(%tmp.54);
+    invoke %tmp.45 %tmp.46(%tmp.47, %tmp.48, %tmp.49, %tmp.50, %tmp.55);
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_30_137_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_8_137_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_135_8_137_8_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 139 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_12_139_31_begin:
+    %tmp.56 = lgetv %ch.5;
+    symbol [ ch %tmp.56 139 12 14 ];
+    %tmp.57 = '0';
+    %tmp.58 = gte %tmp.56 %tmp.57;
+    bf %tmp.58 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_25_139_31_true:
+    %tmp.59 = lgetv %ch.5;
+    symbol [ ch %tmp.59 139 25 27 ];
+    %tmp.60 = '9';
+    %tmp.61 = lte %tmp.59 %tmp.60;
+    push %tmp.61;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_25_139_31_end:
+    %tmp.62 = phi [%tmp.58 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_12_139_31_begin] [%tmp.61 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_25_139_31_true] [%tmp.62 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_25_139_31_end];
+    bf %tmp.62 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_36_141_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 140 12 ]
+    %tmp.63 = lgetv %ch.5;
+    symbol [ ch %tmp.63 140 24 26 ];
+    lputv %lastDigit.3 %tmp.63;
+    symbol [ lastDigit %lastDigit.3 140 12 21 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_36_141_8_stop:
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_139_8_141_8_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_43_142_4_stop:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_incr:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 127 ]
+    %tmp.66 = lgetv %i.4;
+    symbol [ i %tmp.66 127 38 39 ];
+    %tmp.67 = add %tmp.66 1;
+    lputv %i.4 %tmp.67;
+    symbol [ i %i.4 127 38 39 ];
+    goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_test;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_127_4_142_4_for_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 144 4 ]
+    %tmp.68 = lgetv %curX.2;
+    symbol [ curX %tmp.68 144 11 15 ];
+    ret %tmp.68;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_122_46_145_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 148; @symbol_functiondef = [drawNumberTextCentered,148,9,31]; @symbol_param<0> = [dc,148,32,34]; @symbol_param<1> = [centerX,148,36,43]; @symbol_param<2> = [y,148,45,46]; @symbol_param<3> = [text,148,48,52]; @symbol_param<4> = [size,148,54,58]; ]
+function drawNumberTextCentered(dc, centerX, y, text, size) {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_148_60_151_0_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 149 4 ]
+    [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_148_60_151_0_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_148_60_151_0_stop" ]
+    %startX.1 = local;
+    symbol [ startX %startX.1 149 8 14 ];
+    %tmp.1 = lgetv %centerX;
+    symbol [ centerX %tmp.1 149 17 24 ];
+    %tmp.2 = self;
+    symbol [ numberTextWidth %tmp.3 149 28 43 ];
+    %tmp.3 = getv function %tmp.2 :numberTextWidth;
+    %tmp.4 = lgetv %text;
+    symbol [ text %tmp.4 149 44 48 ];
+    %tmp.5 = lgetv %size;
+    symbol [ size %tmp.5 149 50 54 ];
+    %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+    %tmp.7 = 2;
+    %tmp.8 = div %tmp.6 %tmp.7;
+    %tmp.9 = sub %tmp.1 %tmp.8;
+    lputv %startX.1 %tmp.9;
+    symbol [ startX %startX.1 149 8 14 ];
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc" 150 4 ]
+    %tmp.10 = self;
+    symbol [ drawNumberText %tmp.11 150 11 25 ];
+    %tmp.11 = getv function %tmp.10 :drawNumberText;
+    %tmp.12 = lgetv %dc;
+    symbol [ dc %tmp.12 150 26 28 ];
+    %tmp.13 = lgetv %startX.1;
+    symbol [ startX %tmp.13 150 30 36 ];
+    %tmp.14 = lgetv %y;
+    symbol [ y %tmp.14 150 38 39 ];
+    %tmp.15 = lgetv %text;
+    symbol [ text %tmp.15 150 41 45 ];
+    %tmp.16 = lgetv %size;
+    symbol [ size %tmp.16 150 47 51 ];
+    %tmp.17 = invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.14, %tmp.15, %tmp.16);
+    ret %tmp.17;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_NumberImages_mc_148_60_151_0_stop:
+}
+[ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\NumberImages.mc"; @line = 1; ]
+<init> {
+}
