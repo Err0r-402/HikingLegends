@@ -53,6 +53,9 @@ module Rez {
         (:initialized) var Trillion as ResourceId;
         (:initialized) var Quadrillion as ResourceId;
         (:initialized) var Purchase as ResourceId;
+        (:initialized) var Bought as ResourceId;
+        (:initialized) var AlreadyOwned as ResourceId;
+        (:initialized) var Insufficient as ResourceId;
         (:initialized) var id_monkey as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables

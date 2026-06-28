@@ -4,19 +4,19 @@ import Toybox.Lang;
 // coin-per-step multiplier granted while the item is equipped.
 function getUpgrades() {
     return [
-        {:id => "walker", :name => "Walker", :cost => 100l, :multiplier => 1.5},
-        {:id => "hiker", :name => "Hiker", :cost => 1000l, :multiplier => 2.0},
-        {:id => "explorer", :name => "Explorer", :cost => 10000l, :multiplier => 3.0},
-        {:id => "mountaineer", :name => "Mountaineer", :cost => 100000l, :multiplier => 5.0},
-        {:id => "trailblazer", :name => "Trailblazer", :cost => 1000000l, :multiplier => 8.0},
-        {:id => "hiking_master", :name => "Hiking Master", :cost => 10000000l, :multiplier => 12.0},
-        {:id => "hiking_legend", :name => "Hiking Legend", :cost => 100000000l, :multiplier => 18.0},
-        {:id => "mythic_explorer", :name => "Mythic Explorer", :cost => 1000000000l, :multiplier => 27.0},
-        {:id => "ancient_way_finder", :name => "Old Way Finder", :cost => 10000000000l, :multiplier => 40.0},
-        {:id => "summit_sage", :name => "Summit Sage", :cost => 100000000000l, :multiplier => 60.0},
-        {:id => "celestial_wanderer", :name => "Star Wanderer", :cost => 1000000000000l, :multiplier => 90.0},
-        {:id => "legendary_ascendant", :name => "Legend Ascend", :cost => 50000000000000l, :multiplier => 180.0},
-        {:id => "eternal_ascendant", :name => "Eternal Ascend", :cost => 1000000000000000l, :multiplier => 350.0}
+        {:id => "walker", :name => "Walker", :cost => 100l, :multiplier => 2l},
+        {:id => "hiker", :name => "Hiker", :cost => 1000l, :multiplier => 5l},
+        {:id => "explorer", :name => "Explorer", :cost => 10000l, :multiplier => 12l},
+        {:id => "mountaineer", :name => "Mountaineer", :cost => 100000l, :multiplier => 30l},
+        {:id => "trailblazer", :name => "Trailblazer", :cost => 1000000l, :multiplier => 75l},
+        {:id => "hiking_master", :name => "Hiking Master", :cost => 10000000l, :multiplier => 180l},
+        {:id => "hiking_legend", :name => "Hiking Legend", :cost => 100000000l, :multiplier => 450l},
+        {:id => "mythic_explorer", :name => "Mythic Explorer", :cost => 1000000000l, :multiplier => 1100l},
+        {:id => "ancient_way_finder", :name => "Old Way Finder", :cost => 10000000000l, :multiplier => 2700l},
+        {:id => "summit_sage", :name => "Summit Sage", :cost => 100000000000l, :multiplier => 6500l},
+        {:id => "celestial_wanderer", :name => "Star Wanderer", :cost => 1000000000000l, :multiplier => 16000l},
+        {:id => "legendary_ascendant", :name => "Legend Ascend", :cost => 50000000000000l, :multiplier => 80000l},
+        {:id => "eternal_ascendant", :name => "Eternal Ascend", :cost => 1000000000000000l, :multiplier => 400000l}
     ];
 }
 

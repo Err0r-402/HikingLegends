@@ -153,13 +153,13 @@ class ShopItemDetailView extends WatchUi.View {
         dc.clear();
 
         if (background != null) {
-            dc.drawScaledBitmap(0,0,454,454,background);
+            dc.drawBitmap(0,0,background);
         }
 
         if (!app.isPurchased(itemId)) {
-            dc.drawScaledBitmap(
+            dc.drawBitmap(
                 purchaseOffset+340,
-                80,100,100,
+                80,
                 purchase
             );
         }
@@ -181,32 +181,16 @@ class ShopItemDetailDelegate extends WatchUi.BehaviorDelegate {
         var key = keyEvent.getKey();
 
         if (key == 4) {
-            var upgrade = getUpgradeById(itemId);
             var result = app.purchaseItem(itemId);
+            var rezId = Rez.Drawables.Insufficient;
 
             if (result == :success) {
-                WatchUi.pushView(
-                    new SimpleMessageView(
-                        app,
-                        upgrade.get(:name) + "\npurchased!",
-                        "You now earn " + upgrade.get(:multiplier).toString() + "x\ncurrency per step."
-                    ),
-                    null,
-                    WatchUi.SLIDE_LEFT
-                );
+                rezId = Rez.Drawables.Bought;
             } else if (result == :already_owned) {
-                WatchUi.pushView(
-                    new SimpleMessageView(app, "Already owned", "This rank is already\nin your collection."),
-                    null,
-                    WatchUi.SLIDE_LEFT
-                );
-            } else {
-                WatchUi.pushView(
-                    new SimpleMessageView(app, "Not enough\nmoney!", "Keep walking to\nearn more."),
-                    null,
-                    WatchUi.SLIDE_LEFT
-                );
+                rezId = Rez.Drawables.AlreadyOwned;
             }
+
+            WatchUi.pushView(new ShopResultView(app, rezId), null, WatchUi.SLIDE_LEFT);
             return true;
         }
 

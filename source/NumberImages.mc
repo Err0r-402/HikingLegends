@@ -48,6 +48,22 @@ function scaledAmount(value, divisor) {
     return (tenth == 0) ? whole.toString() : whole.toString() + "." + tenth.toString();
 }
 
+// Formats an integer with thousands-separating commas (1100 => "1,100").
+function commaSeparate(value) {
+    var digits = value.toLong().toString();
+    var len = digits.length();
+    var result = "";
+
+    for (var i = 0; i < len; i++) {
+        if (i > 0 && (len - i) % 3 == 0) {
+            result += ",";
+        }
+        result += digits.substring(i, i + 1);
+    }
+
+    return result;
+}
+
 // Gaps below are tuned for 75px-tall glyphs; scale them proportionally for other sizes so
 // larger/smaller renderings keep the same relative spacing.
 const NUMBER_IMAGE_BASE_SIZE = 75;

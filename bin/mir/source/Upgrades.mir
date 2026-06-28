@@ -23,7 +23,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.17 = aputv %tmp.16 %tmp.14 %tmp.15;
     %tmp.19 = const :multiplier;
     symbol [ multiplier %tmp.19 7 61 71 const ];
-    %tmp.20 = 1.5;
+    %tmp.20 = 2l;
     %tmp.21 = dup %tmp.17;
     %tmp.22 = aputv %tmp.21 %tmp.19 %tmp.20;
     %tmp.23 = dup %tmp.1;
@@ -46,7 +46,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.40 = aputv %tmp.39 %tmp.37 %tmp.38;
     %tmp.42 = const :multiplier;
     symbol [ multiplier %tmp.42 8 60 70 const ];
-    %tmp.43 = 2.0;
+    %tmp.43 = 5l;
     %tmp.44 = dup %tmp.40;
     %tmp.45 = aputv %tmp.44 %tmp.42 %tmp.43;
     %tmp.46 = dup %tmp.24;
@@ -69,7 +69,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.63 = aputv %tmp.62 %tmp.60 %tmp.61;
     %tmp.65 = const :multiplier;
     symbol [ multiplier %tmp.65 9 67 77 const ];
-    %tmp.66 = 3.0;
+    %tmp.66 = 12l;
     %tmp.67 = dup %tmp.63;
     %tmp.68 = aputv %tmp.67 %tmp.65 %tmp.66;
     %tmp.69 = dup %tmp.47;
@@ -92,7 +92,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.86 = aputv %tmp.85 %tmp.83 %tmp.84;
     %tmp.88 = const :multiplier;
     symbol [ multiplier %tmp.88 10 74 84 const ];
-    %tmp.89 = 5.0;
+    %tmp.89 = 30l;
     %tmp.90 = dup %tmp.86;
     %tmp.91 = aputv %tmp.90 %tmp.88 %tmp.89;
     %tmp.92 = dup %tmp.70;
@@ -115,7 +115,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.109 = aputv %tmp.108 %tmp.106 %tmp.107;
     %tmp.111 = const :multiplier;
     symbol [ multiplier %tmp.111 11 75 85 const ];
-    %tmp.112 = 8.0;
+    %tmp.112 = 75l;
     %tmp.113 = dup %tmp.109;
     %tmp.114 = aputv %tmp.113 %tmp.111 %tmp.112;
     %tmp.115 = dup %tmp.93;
@@ -138,7 +138,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.132 = aputv %tmp.131 %tmp.129 %tmp.130;
     %tmp.134 = const :multiplier;
     symbol [ multiplier %tmp.134 12 80 90 const ];
-    %tmp.135 = 12.0;
+    %tmp.135 = 180l;
     %tmp.136 = dup %tmp.132;
     %tmp.137 = aputv %tmp.136 %tmp.134 %tmp.135;
     %tmp.138 = dup %tmp.116;
@@ -161,7 +161,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.155 = aputv %tmp.154 %tmp.152 %tmp.153;
     %tmp.157 = const :multiplier;
     symbol [ multiplier %tmp.157 13 81 91 const ];
-    %tmp.158 = 18.0;
+    %tmp.158 = 450l;
     %tmp.159 = dup %tmp.155;
     %tmp.160 = aputv %tmp.159 %tmp.157 %tmp.158;
     %tmp.161 = dup %tmp.139;
@@ -184,7 +184,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.178 = aputv %tmp.177 %tmp.175 %tmp.176;
     %tmp.180 = const :multiplier;
     symbol [ multiplier %tmp.180 14 86 96 const ];
-    %tmp.181 = 27.0;
+    %tmp.181 = 1100l;
     %tmp.182 = dup %tmp.178;
     %tmp.183 = aputv %tmp.182 %tmp.180 %tmp.181;
     %tmp.184 = dup %tmp.162;
@@ -207,7 +207,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.201 = aputv %tmp.200 %tmp.198 %tmp.199;
     %tmp.203 = const :multiplier;
     symbol [ multiplier %tmp.203 15 89 99 const ];
-    %tmp.204 = 40.0;
+    %tmp.204 = 2700l;
     %tmp.205 = dup %tmp.201;
     %tmp.206 = aputv %tmp.205 %tmp.203 %tmp.204;
     %tmp.207 = dup %tmp.185;
@@ -230,7 +230,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.224 = aputv %tmp.223 %tmp.221 %tmp.222;
     %tmp.226 = const :multiplier;
     symbol [ multiplier %tmp.226 16 80 90 const ];
-    %tmp.227 = 60.0;
+    %tmp.227 = 6500l;
     %tmp.228 = dup %tmp.224;
     %tmp.229 = aputv %tmp.228 %tmp.226 %tmp.227;
     %tmp.230 = dup %tmp.208;
@@ -253,7 +253,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.247 = aputv %tmp.246 %tmp.244 %tmp.245;
     %tmp.249 = const :multiplier;
     symbol [ multiplier %tmp.249 17 90 100 const ];
-    %tmp.250 = 90.0;
+    %tmp.250 = 16000l;
     %tmp.251 = dup %tmp.247;
     %tmp.252 = aputv %tmp.251 %tmp.249 %tmp.250;
     %tmp.253 = dup %tmp.231;
@@ -276,7 +276,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.270 = aputv %tmp.269 %tmp.267 %tmp.268;
     %tmp.272 = const :multiplier;
     symbol [ multiplier %tmp.272 18 92 102 const ];
-    %tmp.273 = 180.0;
+    %tmp.273 = 80000l;
     %tmp.274 = dup %tmp.270;
     %tmp.275 = aputv %tmp.274 %tmp.272 %tmp.273;
     %tmp.276 = dup %tmp.254;
@@ -299,7 +299,7 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_Upgrad
     %tmp.293 = aputv %tmp.292 %tmp.290 %tmp.291;
     %tmp.295 = const :multiplier;
     symbol [ multiplier %tmp.295 19 93 103 const ];
-    %tmp.296 = 350.0;
+    %tmp.296 = 400000l;
     %tmp.297 = dup %tmp.293;
     %tmp.298 = aputv %tmp.297 %tmp.295 %tmp.296;
     %tmp.299 = dup %tmp.277;

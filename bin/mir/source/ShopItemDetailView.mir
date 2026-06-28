@@ -552,47 +552,43 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopIt
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 156 12 ]
         %tmp.7 = lgetv %dc;
         symbol [ dc %tmp.7 156 12 14 ];
-        symbol [ drawScaledBitmap %tmp.8 156 15 31 ];
-        %tmp.8 = getv function %tmp.7 :drawScaledBitmap;
+        symbol [ drawBitmap %tmp.8 156 15 25 ];
+        %tmp.8 = getv function %tmp.7 :drawBitmap;
         %tmp.9 = 0;
         %tmp.10 = 0;
-        %tmp.11 = 454;
-        %tmp.12 = 454;
-        symbol [ background %tmp.14 156 44 54 ];
-        %tmp.14 = getv ? :background;
-        %tmp.15 = as %tmp.14 { (!Null) };
-        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.11, %tmp.12, %tmp.15);
+        symbol [ background %tmp.12 156 30 40 ];
+        %tmp.12 = getv ? :background;
+        %tmp.13 = as %tmp.12 { (!Null) };
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.13);
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_155_32_157_8_stop:
         goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_155_8_157_8_if_end;
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_155_8_157_8_if_end:
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 159 8 ]
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_stmt:
-        symbol [ app %tmp.17 159 13 16 ];
-        %tmp.17 = getv ? :app;
-        symbol [ isPurchased %tmp.18 159 17 28 ];
-        %tmp.18 = getv function %tmp.17 :isPurchased;
-        symbol [ itemId %tmp.20 159 29 35 ];
-        %tmp.20 = getv ? :itemId;
-        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
-        %tmp.22 = not %tmp.21;
-        bf %tmp.22 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_end;
+        symbol [ app %tmp.15 159 13 16 ];
+        %tmp.15 = getv ? :app;
+        symbol [ isPurchased %tmp.16 159 17 28 ];
+        %tmp.16 = getv function %tmp.15 :isPurchased;
+        symbol [ itemId %tmp.18 159 29 35 ];
+        %tmp.18 = getv ? :itemId;
+        %tmp.19 = invoke %tmp.15 %tmp.16(%tmp.18);
+        %tmp.20 = not %tmp.19;
+        bf %tmp.20 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_end;
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_true:
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_38_165_8_start:
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 160 12 ]
-        %tmp.23 = lgetv %dc;
-        symbol [ dc %tmp.23 160 12 14 ];
-        symbol [ drawScaledBitmap %tmp.24 160 15 31 ];
-        %tmp.24 = getv function %tmp.23 :drawScaledBitmap;
-        symbol [ purchaseOffset %tmp.26 161 16 30 ];
-        %tmp.26 = getv ? :purchaseOffset;
-        %tmp.27 = 340;
-        %tmp.28 = add %tmp.26 %tmp.27;
-        %tmp.29 = 80;
-        %tmp.30 = 100;
-        %tmp.31 = 100;
-        symbol [ purchase %tmp.33 163 16 24 ];
-        %tmp.33 = getv ? :purchase;
-        invoke %tmp.23 %tmp.24(%tmp.28, %tmp.29, %tmp.30, %tmp.31, %tmp.33);
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 160 12 14 ];
+        symbol [ drawBitmap %tmp.22 160 15 25 ];
+        %tmp.22 = getv function %tmp.21 :drawBitmap;
+        symbol [ purchaseOffset %tmp.24 161 16 30 ];
+        %tmp.24 = getv ? :purchaseOffset;
+        %tmp.25 = 340;
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.27 = 80;
+        symbol [ purchase %tmp.29 163 16 24 ];
+        %tmp.29 = getv ? :purchase;
+        invoke %tmp.21 %tmp.22(%tmp.26, %tmp.27, %tmp.29);
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_38_165_8_stop:
         goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_end;
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_159_8_165_8_if_end:
@@ -637,9 +633,9 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopIt
     }
     [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc"; @line = 180; @symbol_functiondef = [onKey,180,13,18]; @symbol_param<0> = [keyEvent,180,19,27]; @symbol_param<0>_type<0> = [KeyEvent,180,31,39]; @symbol_return<0> = [Boolean,180,44,51]; ]
     function onKey(keyEvent as KeyEvent) as Boolean {
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_219_4_start:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_203_4_start:
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 181 8 ]
-        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_219_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_219_4_stop" ]
+        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_203_4_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_203_4_stop" ]
         %key.1 = local;
         symbol [ key %key.1 181 12 15 ];
         %tmp.1 = lgetv %keyEvent;
@@ -650,179 +646,137 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopIt
         lputv %key.1 %tmp.3;
         symbol [ key %key.1 181 12 15 ];
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 183 8 ]
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_211_8_if_stmt:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_195_8_if_stmt:
         %tmp.4 = lgetv %key.1;
         symbol [ key %tmp.4 183 12 15 ];
         %tmp.5 = 4;
         %tmp.6 = eq %tmp.4 %tmp.5;
-        bf %tmp.6 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_211_8_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_211_8_if_true:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_start:
+        bf %tmp.6 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_195_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_195_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_start:
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 184 12 ]
-        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_stop" ]
-        %upgrade.2 = local;
-        symbol [ upgrade %upgrade.2 184 16 23 ];
-        %tmp.7 = self;
-        symbol [ getUpgradeById %tmp.8 184 26 40 ];
-        %tmp.8 = getv function %tmp.7 :getUpgradeById;
-        symbol [ itemId %tmp.10 184 41 47 ];
-        %tmp.10 = getv ? :itemId;
-        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
-        lputv %upgrade.2 %tmp.11;
-        symbol [ upgrade %upgrade.2 184 16 23 ];
+        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_stop" ]
+        %result.2 = local;
+        symbol [ result %result.2 184 16 22 ];
+        symbol [ app %tmp.8 184 25 28 ];
+        %tmp.8 = getv ? :app;
+        symbol [ purchaseItem %tmp.9 184 29 41 ];
+        %tmp.9 = getv function %tmp.8 :purchaseItem;
+        symbol [ itemId %tmp.11 184 42 48 ];
+        %tmp.11 = getv ? :itemId;
+        %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
+        lputv %result.2 %tmp.12;
+        symbol [ result %result.2 184 16 22 ];
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 185 12 ]
-        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_stop" ]
-        %result.3 = local;
-        symbol [ result %result.3 185 16 22 ];
-        symbol [ app %tmp.13 185 25 28 ];
-        %tmp.13 = getv ? :app;
-        symbol [ purchaseItem %tmp.14 185 29 41 ];
-        %tmp.14 = getv function %tmp.13 :purchaseItem;
-        symbol [ itemId %tmp.16 185 42 48 ];
-        %tmp.16 = getv ? :itemId;
-        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
-        lputv %result.3 %tmp.17;
-        symbol [ result %result.3 185 16 22 ];
+        [ "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_start" "C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_stop" ]
+        %rezId.3 = local;
+        symbol [ rezId %rezId.3 185 16 21 ];
+        symbol [ Rez %tmp.14 185 24 27 ];
+        %tmp.14 = getv ? :Rez;
+        symbol [ Drawables %tmp.15 185 28 37 ];
+        %tmp.15 = getv %tmp.14 :Drawables;
+        symbol [ Insufficient %tmp.16 185 38 50 ];
+        %tmp.16 = getv %tmp.15 :Insufficient;
+        lputv %rezId.3 %tmp.16;
+        symbol [ rezId %rezId.3 185 16 21 ];
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 187 12 ]
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_stmt:
-        %tmp.18 = lgetv %result.3;
-        symbol [ result %tmp.18 187 16 22 ];
-        %tmp.20 = const :success;
-        symbol [ success %tmp.20 187 27 34 const ];
-        %tmp.21 = eq %tmp.18 %tmp.20;
-        bf %tmp.21 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_false;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_true:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_36_197_12_start:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_stmt:
+        %tmp.17 = lgetv %result.2;
+        symbol [ result %tmp.17 187 16 22 ];
+        %tmp.19 = const :success;
+        symbol [ success %tmp.19 187 27 34 const ];
+        %tmp.20 = eq %tmp.17 %tmp.19;
+        bf %tmp.20 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_false;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_36_189_12_start:
 [ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 188 16 ]
-        symbol [ WatchUi %tmp.22 188 16 23 ];
-        %tmp.22 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.23 188 24 32 ];
-        %tmp.23 = getv function %tmp.22 :pushView;
-        symbol [ SimpleMessageView %tmp.27 189 24 41 ];
-        %tmp.27 = getv ? :SimpleMessageView;
-        symbol [ app %tmp.29 190 24 27 ];
-        %tmp.29 = getv ? :app;
-        %tmp.30 = lgetv %upgrade.2;
-        symbol [ upgrade %tmp.30 191 24 31 ];
-        symbol [ get %tmp.31 191 32 35 ];
-        %tmp.31 = getv function %tmp.30 :get;
-        %tmp.33 = const :name;
-        symbol [ name %tmp.33 191 37 41 const ];
-        %tmp.34 = invoke %tmp.30 %tmp.31(%tmp.33);
-        %tmp.35 = "\npurchased!";
-        %tmp.36 = add %tmp.34 %tmp.35;
-        %tmp.37 = "You now earn ";
-        %tmp.38 = lgetv %upgrade.2;
-        symbol [ upgrade %tmp.38 192 42 49 ];
-        symbol [ get %tmp.39 192 50 53 ];
-        %tmp.39 = getv function %tmp.38 :get;
-        %tmp.41 = const :multiplier;
-        symbol [ multiplier %tmp.41 192 55 65 const ];
-        %tmp.42 = invoke %tmp.38 %tmp.39(%tmp.41);
-        symbol [ toString %tmp.43 192 67 75 ];
-        %tmp.43 = getv function %tmp.42 :toString;
-        %tmp.44 = invoke %tmp.42 %tmp.43();
-        %tmp.45 = add %tmp.37 %tmp.44;
-        %tmp.46 = "x\ncurrency per step.";
-        %tmp.47 = add %tmp.45 %tmp.46;
-        %tmp.24 = newc %tmp.27 (%tmp.29, %tmp.36, %tmp.47);
-        %tmp.48 = null;
-        symbol [ WatchUi %tmp.49 195 20 27 ];
+        symbol [ Rez %tmp.22 188 24 27 ];
+        %tmp.22 = getv ? :Rez;
+        symbol [ Drawables %tmp.23 188 28 37 ];
+        %tmp.23 = getv %tmp.22 :Drawables;
+        symbol [ Bought %tmp.24 188 38 44 ];
+        %tmp.24 = getv %tmp.23 :Bought;
+        lputv %rezId.3 %tmp.24;
+        symbol [ rezId %rezId.3 188 16 21 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_36_189_12_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_false:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 189 19 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_19_191_12_if_stmt:
+        %tmp.25 = lgetv %result.2;
+        symbol [ result %tmp.25 189 23 29 ];
+        %tmp.27 = const :already_owned;
+        symbol [ already_owned %tmp.27 189 34 47 const ];
+        %tmp.28 = eq %tmp.25 %tmp.27;
+        bf %tmp.28 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_19_191_12_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_19_191_12_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_49_191_12_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 190 16 ]
+        symbol [ Rez %tmp.30 190 24 27 ];
+        %tmp.30 = getv ? :Rez;
+        symbol [ Drawables %tmp.31 190 28 37 ];
+        %tmp.31 = getv %tmp.30 :Drawables;
+        symbol [ AlreadyOwned %tmp.32 190 38 50 ];
+        %tmp.32 = getv %tmp.31 :AlreadyOwned;
+        lputv %rezId.3 %tmp.32;
+        symbol [ rezId %rezId.3 190 16 21 ];
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_49_191_12_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_19_191_12_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_189_19_191_12_if_end:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_191_12_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 193 12 ]
+        symbol [ WatchUi %tmp.33 193 12 19 ];
+        %tmp.33 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.34 193 20 28 ];
+        %tmp.34 = getv function %tmp.33 :pushView;
+        symbol [ ShopResultView %tmp.38 193 33 47 ];
+        %tmp.38 = getv ? :ShopResultView;
+        symbol [ app %tmp.40 193 48 51 ];
+        %tmp.40 = getv ? :app;
+        %tmp.41 = lgetv %rezId.3;
+        symbol [ rezId %tmp.41 193 53 58 ];
+        %tmp.35 = newc %tmp.38 (%tmp.40, %tmp.41);
+        %tmp.42 = null;
+        symbol [ WatchUi %tmp.43 193 67 74 ];
+        %tmp.43 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.44 193 75 85 ];
+        %tmp.44 = getv %tmp.43 :SLIDE_LEFT;
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.42, %tmp.44);
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 194 12 ]
+        %tmp.45 = true;
+        ret %tmp.45;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_195_8_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_195_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_195_8_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 197 8 ]
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_8_200_8_if_stmt:
+        %tmp.46 = lgetv %key.1;
+        symbol [ key %tmp.46 197 12 15 ];
+        %tmp.47 = 5;
+        %tmp.48 = eq %tmp.46 %tmp.47;
+        bf %tmp.48 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_8_200_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_8_200_8_if_true:
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_22_200_8_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 198 12 ]
+        symbol [ WatchUi %tmp.49 198 12 19 ];
         %tmp.49 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_LEFT %tmp.50 195 28 38 ];
-        %tmp.50 = getv %tmp.49 :SLIDE_LEFT;
-        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.48, %tmp.50);
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_36_197_12_stop:
-        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_false:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 197 19 ]
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_stmt:
-        %tmp.51 = lgetv %result.3;
-        symbol [ result %tmp.51 197 23 29 ];
-        %tmp.53 = const :already_owned;
-        symbol [ already_owned %tmp.53 197 34 47 const ];
-        %tmp.54 = eq %tmp.51 %tmp.53;
-        bf %tmp.54 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_else_false;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_true:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_49_203_12_start:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 198 16 ]
-        symbol [ WatchUi %tmp.55 198 16 23 ];
-        %tmp.55 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.56 198 24 32 ];
-        %tmp.56 = getv function %tmp.55 :pushView;
-        symbol [ SimpleMessageView %tmp.60 199 24 41 ];
-        %tmp.60 = getv ? :SimpleMessageView;
-        symbol [ app %tmp.62 199 42 45 ];
-        %tmp.62 = getv ? :app;
-        %tmp.63 = "Already owned";
-        %tmp.64 = "This rank is already\nin your collection.";
-        %tmp.57 = newc %tmp.60 (%tmp.62, %tmp.63, %tmp.64);
-        %tmp.65 = null;
-        symbol [ WatchUi %tmp.66 201 20 27 ];
-        %tmp.66 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_LEFT %tmp.67 201 28 38 ];
-        %tmp.67 = getv %tmp.66 :SLIDE_LEFT;
-        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.65, %tmp.67);
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_49_203_12_stop:
-        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_else_false:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_203_19_209_12_start:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 204 16 ]
-        symbol [ WatchUi %tmp.68 204 16 23 ];
-        %tmp.68 = getm $.Toybox.WatchUi;
-        symbol [ pushView %tmp.69 204 24 32 ];
-        %tmp.69 = getv function %tmp.68 :pushView;
-        symbol [ SimpleMessageView %tmp.73 205 24 41 ];
-        %tmp.73 = getv ? :SimpleMessageView;
-        symbol [ app %tmp.75 205 42 45 ];
-        %tmp.75 = getv ? :app;
-        %tmp.76 = "Not enough\nmoney!";
-        %tmp.77 = "Keep walking to\nearn more.";
-        %tmp.70 = newc %tmp.73 (%tmp.75, %tmp.76, %tmp.77);
-        %tmp.78 = null;
-        symbol [ WatchUi %tmp.79 207 20 27 ];
-        %tmp.79 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_LEFT %tmp.80 207 28 38 ];
-        %tmp.80 = getv %tmp.79 :SLIDE_LEFT;
-        invoke %tmp.68 %tmp.69(%tmp.70, %tmp.78, %tmp.80);
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_203_19_209_12_stop:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_19_209_12_if_end:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_187_12_209_12_if_end:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 210 12 ]
-        %tmp.81 = true;
-        ret %tmp.81;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_22_211_8_stop:
-        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_211_8_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_183_8_211_8_if_end:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 213 8 ]
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_8_216_8_if_stmt:
-        %tmp.82 = lgetv %key.1;
-        symbol [ key %tmp.82 213 12 15 ];
-        %tmp.83 = 5;
-        %tmp.84 = eq %tmp.82 %tmp.83;
-        bf %tmp.84 @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_8_216_8_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_8_216_8_if_true:
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_22_216_8_start:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 214 12 ]
-        symbol [ WatchUi %tmp.85 214 12 19 ];
-        %tmp.85 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.86 214 20 27 ];
-        %tmp.86 = getv function %tmp.85 :popView;
-        symbol [ WatchUi %tmp.87 214 28 35 ];
-        %tmp.87 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.88 214 36 47 ];
-        %tmp.88 = getv %tmp.87 :SLIDE_RIGHT;
-        invoke %tmp.85 %tmp.86(%tmp.88);
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 215 12 ]
-        %tmp.89 = true;
-        ret %tmp.89;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_22_216_8_stop:
-        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_8_216_8_if_end;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_213_8_216_8_if_end:
-[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 218 8 ]
-        %tmp.90 = false;
-        ret %tmp.90;
-C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_219_4_stop:
+        symbol [ popView %tmp.50 198 20 27 ];
+        %tmp.50 = getv function %tmp.49 :popView;
+        symbol [ WatchUi %tmp.51 198 28 35 ];
+        %tmp.51 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.52 198 36 47 ];
+        %tmp.52 = getv %tmp.51 :SLIDE_RIGHT;
+        invoke %tmp.49 %tmp.50(%tmp.52);
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 199 12 ]
+        %tmp.53 = true;
+        ret %tmp.53;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_22_200_8_stop:
+        goto @C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_8_200_8_if_end;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_197_8_200_8_if_end:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc" 202 8 ]
+        %tmp.54 = false;
+        ret %tmp.54;
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopItemDetailView_mc_180_52_203_4_stop:
     }
 }
 [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopItemDetailView.mc"; @line = 1; ]

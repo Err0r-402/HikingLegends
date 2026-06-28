@@ -51,5 +51,8 @@
     <bitmap id="Quadrillion" filename="Text/q.png" />
 
     <bitmap id="Purchase" filename="Shop/Purchase.png" />
+    <bitmap id="Bought" filename="Shop/Dark/Bought.png" />
+    <bitmap id="AlreadyOwned" filename="Shop/Dark/Already Owned.png" />
+    <bitmap id="Insufficient" filename="Shop/Dark/Insufficient.png" />
 
 </drawables>

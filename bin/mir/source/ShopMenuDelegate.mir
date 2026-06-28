@@ -70,6 +70,21 @@ C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMe
         invoke %tmp.4 %tmp.5(%tmp.6, %tmp.13, %tmp.21);
 C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_13_28_22_0_stop:
     }
+    [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 24; @symbol_functiondef = [onBack,24,13,19]; ]
+    function onBack() {
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_24_22_26_4_start:
+[ "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc" 25 8 ]
+        symbol [ WatchUi %tmp.1 25 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 25 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 25 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 25 32 43 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+C__Users_pkqa2_OneDrive_Documents_Visual_Studio_Code_HikingLegends_source_ShopMenuDelegate_mc_24_22_26_4_stop:
+    }
 }
 [ @file = "C:\Users\pkqa2\OneDrive\Documents\Visual Studio Code\HikingLegends\source\ShopMenuDelegate.mc"; @line = 1; ]
 <init> {

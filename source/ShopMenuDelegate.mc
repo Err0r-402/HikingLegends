@@ -20,4 +20,8 @@ class ShopMenuDelegate extends WatchUi.Menu2InputDelegate {
         WatchUi.SLIDE_LEFT
     );
 }
+
+    function onBack() {
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+    }
 }

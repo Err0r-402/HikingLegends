@@ -65,7 +65,7 @@ class HikingLegendsView extends WatchUi.View {
 
         drawNumberText(dc, 160, 160, abbreviateNumber(currentSteps), 75);
         drawNumberText(dc, 160, 205, "$" + abbreviateNumber(app.getCurrency()), 75);
-        drawNumberText(dc, 230, 250, app.getCurrencyPerStep().toString()+"x", 75);
+        drawNumberText(dc, 230, 250, commaSeparate(app.getCurrencyPerStep())+"x", 75);
 
         WatchUi.requestUpdate();
 
@@ -192,6 +192,29 @@ class SimpleMessageView extends WatchUi.View {
         dc.drawText(227, 40, Graphics.FONT_MEDIUM, message, Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(227, 180, Graphics.FONT_SMALL, subMessage, Graphics.TEXT_JUSTIFY_CENTER);
         dc.drawText(227, 330, Graphics.FONT_TINY, "Press back...", Graphics.TEXT_JUSTIFY_CENTER);
+        WatchUi.requestUpdate();
+    }
+
+    function onKey(key) {
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+    }
+}
+
+// Full-screen purchase result splash (bought / already owned / insufficient funds).
+// Dismissed by pressing any key.
+class ShopResultView extends WatchUi.View {
+    var app;
+    var image;
+
+    function initialize(app, rezId) {
+        View.initialize();
+        self.app = app;
+        image = WatchUi.loadResource(rezId);
+    }
+
+    function onUpdate(dc) {
+        dc.clear();
+        dc.drawScaledBitmap(0, 0, 454, 454, image);
         WatchUi.requestUpdate();
     }
 
